@@ -180,6 +180,16 @@
 					</div>
 				</li>
 				
+				
+				<li class="coach_info animateColumn">
+					<div class="coach_data">
+						<img src="style/images/default.jpg">
+						<h5>Krishna Kumar</h5>
+						<p><i class="fa fa-phone"></i>+91-9785061492</p>
+						<p><i class="fa fa-envelope"></i> kkmeena@iitk.ac.in</p>
+					</div>
+				</li>
+				
 			</ul>
 		</div>
 		
