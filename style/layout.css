@@ -1,0 +1,684 @@
+@font-face{
+	font-family:"icomoon";
+	src:url(fonts/icomoon.ttf);
+}
+@font-face{
+	font-family:"Bloody";
+	src:url(fonts/BLOODY.ttf);
+}
+@font-face{
+	font-family:"edo";
+	src:url(fonts/edo.ttf);
+}
+@font-face{
+	font-family:"Comicrelief";
+	src:url(fonts/ComicRelief.ttf);
+}
+@font-face{
+	font-family:"Necrotype";
+	src:url(fonts/Necrotype.ttf);
+}
+@font-face{
+	font-family:"glyphicon";
+	src:url(fonts/glyphicons-halflings-regular.ttf);
+}
+.navbar{
+	position:absolute;
+	top:0%;
+	left:0%;
+	padding:0;
+	width:100%;
+	z-index:10;
+}
+.navbar-header{
+	padding-top:2vh;
+	padding-bottom:2vh;
+}
+.back-cover{
+	height:100vh;
+	background-position:0px 0px;
+	background:url(images/basketball_background.jpg) no-repeat  fixed;
+	background-size:cover;
+	position:relative;
+	padding-top:69vh;
+}
+#quote {
+	padding:0px;
+	margin:0px;
+	color:white;
+	font-size:100px;
+	text-align:center;
+	font-family:'edo';
+}
+#quote>p{
+	font-size:24px;
+	margin:0px;
+}
+nav{
+	font-size:20px!important;
+}
+.navbar-brand{
+	margin:-15px!important;
+}
+.navbar-collapse{
+	border-color:black!important;
+}
+
+a.nav-link{
+	font-family:"Montserrat";
+	color:lightgray!important;
+}
+a.nav-link:hover{
+	color:white!important;
+}
+/*
+::selection{
+	color: lightgray;
+    	background: black;
+}
+::-mox-selection{
+	color: lightgray;
+    	background: black;
+}*/
+.preWeb{
+	display:inline;
+	float:right;
+	color:white;
+	background-color:darkgray;
+	border:solid 2px darkgray;
+	border-radius:2px;
+	font-family:"Montserrat";
+	text-decoration:none;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	font-size:120%;
+	padding-bottom:5px;
+	margin-right:5vw;
+}
+.preWeb:hover{
+	color:white;
+	background-color:transparent;
+	text-decoration:none;
+}
+.preWeb + .tooltip > .tooltip-inner {
+	background-color: white;
+	color:black;
+}
+.preWeb+ .tooltip > .tooltip-arrow{
+	border-left-color:white;
+}
+.recentNews{
+	text-align:center;
+	padding-bottom:2vh;
+}
+.recentNews>h1,.bestVideo>h1{
+	color:gray;
+	font-family:"Montserrat";
+}
+.news_row_1{
+	display:inline;
+}
+.back-cover2{
+	height:80vh;
+	background:url(images/ground_image.jpg) no-repeat fixed;
+	background-size:cover;
+	background-position:center;*/
+}
+.bestVideo{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.about{
+	text-align:justify!important;
+	font-family:"Montserrat";
+	padding-top:30px;
+	padding-bottom:40px;
+}
+footer{
+	height:40vh;
+	max-height:200px;
+	background-color:#101010;
+	text-align:center;
+}
+.logoContainer{
+	position:absolute;
+  //-webkit-animation-duration: 3s;
+  //animation-duration: 3s;
+  //-webkit-animation-fill-mode: both;
+  //animation-fill-mode: both;
+	//animation-name:logoAnimate;
+	//-webkit-animation-name:logoAnimate;
+}
+@keyframes logoAnimate {
+  from, 60%, 75%, 90%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    opacity: 0;
+	-webkit-transform:translate3d(80vw, 80vh, 0) scale3d(5,5,5);
+    transform: translate3d(80vw, 80vh, 0) scale3d(5,5,5);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(2,2,2);
+    transform:scale3d(2,2,2);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+	#quote{
+		font-size:40px;
+	}
+	#quote p{
+		font-size:12px;
+	}
+	.news_list_img{
+		width:80%;
+		max-width:250px;
+		height:150px;
+		border:solid 2px darkgray;
+		margin-bottom:4px;
+	}
+	.news_modal_img{
+		width:80%;
+		height:20%;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar{
+	background:transparent;
+	background-color:transparent;
+	border:transparent;
+	}
+	a.nav-link{
+		margin-top:10px;
+	}
+	#quote{
+		font-size:60px;
+	}
+	#quote>p{
+		font-size:16px;
+	}
+	.news_list_img{
+		width:80%;
+		max-width:250px;
+		height:150px;
+		border:solid 2px darkgray;
+		margin-bottom:4px;
+	}
+	.news_modal_img{
+		width:60%;
+		height:25%;
+	}
+}
+
+
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar{
+	background:transparent;
+	background-color:transparent;
+	border:transparent;
+	}
+	a.nav-link{
+		margin-top:10px;
+	}
+	#quote{
+		font-size:80px;
+	}
+	#quote>p{
+		font-size:20px;
+	}
+	.news_list_img{
+		width:80%;
+		height:150px;
+		border:solid 2px darkgray;
+		margin-bottom:4px;
+	}
+	.news_modal_img{
+		width:50%;
+		height:25%;
+	}
+}
+
+
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+	.navbar{
+	background:transparent;
+	background-color:transparent;
+	border:transparent;
+	}
+	a.nav-link{
+		margin-top:10px;
+	}
+	#quote{
+		font-size:100px;
+	}
+	#quote>p{
+		font-size:24px;
+	}
+	.news_list_img{
+		width:80%;
+		max-width:200px;
+		height:150px;
+		border:solid 2px darkgray;
+		margin-bottom:4px;
+	}
+	.news_modal_img{
+		width:50%;
+		max-width:400px;
+		height:25%;
+		max-height:200px;
+	}
+	
+}
+.news_modal_img{
+	border:solid 2px #3d3d3d;
+}
+.news_row_1{
+	margin:10px;
+	display:inline-block!important;
+	color:darkgray;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:2px;
+	border:2px solid darkgray;
+	font-size:50px;
+	cursor:pointer;
+}
+.news_row_1:hover{
+	color:white;
+	background-color:darkgray;
+}
+.news_row_2{
+	width:84%;
+	display:inline-block!important;
+}
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+	#quote{
+		font-size:40px;
+	}
+}
+
+.news_list{
+	background-color:#101010;
+	color:darkgray;
+	box-shadow:3px 3px 3px rgba(0,0,0,0.5);
+	height:380px;
+	font-family:"Montserrat"!important;
+	padding:5px;
+}
+
+.news_list_text{
+	margin-bottom:3vh;
+	height:300px;
+	overflow:hidden;
+}
+.news_list_text>h2{
+	line-height:35px;
+	height:35px;
+	overflow:hidden;
+}
+.news_list_text h4{
+	line-height:20px;
+	height:20px;
+}
+.news_list_text p.textInfo{
+	overflow:hidden;
+	line-height:25px;
+	height:75px;
+}
+button{
+	background:transparent;
+	background-color:transparent;
+	color:darkgray;
+	border:solid 2px darkgray;
+	border-radius:2px;
+	outline:none;
+	font-size:20px;
+	transition:0.5s;
+	cursor:pointer;
+}
+button:hover{
+	background-color:darkgray;
+	color:black;
+}
+.carousel-showsixmoveone .carousel-control {
+  width: 4%;
+  background-image: none;
+}
+.carousel-showsixmoveone .carousel-control.left {
+  margin-left: 15px;
+}
+.carousel-showsixmoveone .carousel-control.right {
+  margin-right: 15px;
+}
+.carousel-showsixmoveone .cloneditem-1,
+.carousel-showsixmoveone .cloneditem-2,
+.carousel-showsixmoveone .cloneditem-3,
+.carousel-showsixmoveone .cloneditem-4,
+.carousel-showsixmoveone .cloneditem-5 {
+  display: none;
+}
+@media all and (min-width: 768px) {
+  .carousel-showsixmoveone .carousel-inner > .active.left,
+  .carousel-showsixmoveone .carousel-inner > .prev {
+    left: -33.333%;
+  }
+  .carousel-showsixmoveone .carousel-inner > .active.right,
+  .carousel-showsixmoveone .carousel-inner > .next {
+    left: 33.333%;
+  }
+  .carousel-showsixmoveone .carousel-inner > .left,
+  .carousel-showsixmoveone .carousel-inner > .prev.right,
+  .carousel-showsixmoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .carousel-showsixmoveone .carousel-inner .cloneditem-1,
+  .carousel-showsixmoveone .carousel-inner .cloneditem-2 {
+    display: block;
+  }
+}
+@media all and (min-width: 768px) and (transform-3d), all and (min-width: 768px) and (-webkit-transform-3d) {
+  .carousel-showsixmoveone .carousel-inner > .item.active.right,
+  .carousel-showsixmoveone .carousel-inner > .item.next {
+    -webkit-transform: translate3d(33.333%, 0, 0);
+            transform: translate3d(33.333%, 0, 0);
+    left: 0;
+  }
+  .carousel-showsixmoveone .carousel-inner > .item.active.left,
+  .carousel-showsixmoveone .carousel-inner > .item.prev {
+    -webkit-transform: translate3d(-33.333%, 0, 0);
+            transform: translate3d(-33.333%, 0, 0);
+    left: 0;
+  }
+  .carousel-showsixmoveone .carousel-inner > .item.left,
+  .carousel-showsixmoveone .carousel-inner > .item.prev.right,
+  .carousel-showsixmoveone .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    left: 0;
+  }
+}
+@media all and (min-width: 992px) {
+  .carousel-showsixmoveone .carousel-inner > .active.left,
+  .carousel-showsixmoveone .carousel-inner > .prev {
+    left: -25%;
+  }
+  .carousel-showsixmoveone .carousel-inner > .active.right,
+  .carousel-showsixmoveone .carousel-inner > .next {
+    left: 25%;
+  }
+  .carousel-showsixmoveone .carousel-inner > .left,
+  .carousel-showsixmoveone .carousel-inner > .prev.right,
+  .carousel-showsixmoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .carousel-showsixmoveone .carousel-inner .cloneditem-3,
+  .carousel-showsixmoveone .carousel-inner .cloneditem-4,
+  .carousel-showsixmoveone .carousel-inner .cloneditem-5 {
+    display: block;
+  }
+}
+@media all and (min-width: 992px) and (transform-3d), all and (min-width: 992px) and (-webkit-transform-3d) {
+  .carousel-showsixmoveone .carousel-inner > .item.active.right,
+  .carousel-showsixmoveone .carousel-inner > .item.next {
+    -webkit-transform: translate3d(25%, 0, 0);
+            transform: translate3d(25%, 0, 0);
+    left: 0;
+  }
+  .carousel-showsixmoveone .carousel-inner > .item.active.left,
+  .carousel-showsixmoveone .carousel-inner > .item.prev {
+    -webkit-transform: translate3d(-25%, 0, 0);
+            transform: translate3d(-25%, 0, 0);
+    left: 0;
+  }
+  .carousel-showsixmoveone .carousel-inner > .item.left,
+  .carousel-showsixmoveone .carousel-inner > .item.prev.right,
+  .carousel-showsixmoveone .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    left: 0;
+  }
+}
+.item>div{
+	margin-bottom:10px;
+}
+
+.modal2{
+	margin:auto auto;
+	background-color:#efefef;
+	color:#3d3d3d;
+	border:solid 3px #3d3d3d;
+	width:80vw;
+	max-width:1000px;
+	height:fit-content;
+	text-align:center;
+	font-family:"Montserrat";
+}
+
+.hidden2{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+.animated2{
+	webkit-animation-duration:2s;
+	animation-duration:2s;
+}
+
+@media (max-width: 880px) {
+	.navbar{
+		background-color:#222;
+		border-color:#080808;
+	}
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+  .dropdown-menu{
+	position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+.upcoming>h1,.upcoming.a{
+	font-family:'edo';
+	font-size:600%;
+	color:white;
+	text-align:center;
+}
+footer li{
+	display:inline;
+	margin:10px;
+}
+footer ul{
+	height:28vh;
+	padding-left:0px;
+	max-height:140px;
+	padding-top:50px;
+}
+footer div{
+	color:darkgray;
+	background-color:#333;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-family:"Montserrat";
+	height:12vh;
+	max-height:60px;
+}
+footer div:hover{
+	color:lightgray;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 15px;
+    font-size: 20px!important;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+	border-radius:3%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/*Instagram */
+.fa-instagram{
+	background-color:#f57f17 !important;
+	color:white;
+}
+/* youtube */
+.fa-youtube{
+	background-color:#bb0000;
+	color:white;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background:#2396F3; 
+    opacity:1;
+    width: 60px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 19px;
+    top: 13px;
+    font-size: 22px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background:slategrey;
+}
+#return-to-top:hover i {
+    color: #fff;
+}
+.tooltip{
+    font-size:15px;
+    font-family:"Montserrat";
+}
+.modal_remove{
+    padding-top:10px;
+    font-size:20px;
+}
+.modal_remove>a{
+    color:lightgray;
+    float:right;
+}
+.modal_remove a:hover{
+    color:white;
+}
+.modal_text{
+   padding-left:5vw;
+   padding-right:5vw;
+   padding-bottom:15px;
+}
+.modal_text h2{
+   margin-top:0px;
+}
+.back-cover button{
+	padding:10px;
+	color:lightgray;
+	font-family:"Montserrat";
+	border:solid 2px lightgray;
+}
+.back-cover button:hover{
+	color:black;
+	background-color:lightgray;
+}
+.interiitcover img{
+	width:100%;
+	height:100%;
+	margin:auto auto;
+}

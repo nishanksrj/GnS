@@ -1,0 +1,233 @@
+.firstCover{
+	width:100%;
+	background:linear-gradient(to bottom,rgba(255,255,255,0.1),rgba(255,255,255,0.3)),url(images/bluebackground.jpg) fixed center;
+	padding-top:20vh;
+	background-size:cover;
+}
+
+
+.sports_info{
+	margin:0px auto;
+	margin-bottom:30px;
+}
+.sports_container{
+	color:darkgray;
+	padding:18px;
+	text-align:center;
+	font-family:"Montserrat";
+	min-width:120px;
+}
+.sports_container button{
+	display:none;
+}
+.sports_block{
+	background-color:#101010;
+	box-shadow:3px 3px 3px rgba(0,0,0,0.7);
+	padding:3px;
+	padding-bottom:10px;
+	cursor:pointer;
+}
+.sports_block p{
+	font-size:2.5vmin;
+}
+.sports_image{
+	width:90%;
+	margin:0px auto;
+	overflow:hidden;
+	border:solid 2px lightgray;
+}
+.sports_image img{
+	width:100%;
+	transition:1s;
+}
+.sports_container img:hover{
+	transform:scale(1.1);
+}
+@media screen and (max-width:767px){
+}
+@media (min-width:768px) and (max-width:991px){
+}
+@media (min-width:992px) and (max-width:1199px){
+}
+@media screen and (min-width:1200px){
+}
+@media screen and (min-width: 768px) { 
+    .modal-content{
+	width:90%!important;
+}
+}	
+
+@media screen and (max-width:500px){
+	.modal{
+	width:100%!important;
+	height:100%!important;
+	border:none!important;
+	}
+}
+.modal-dialog {
+  margin:0px!important;
+  width:100%!important;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hidden2{
+	display:none;
+}
+.visible{
+	display:block;
+}
+.modal3,.modal-content{
+	background-color:white;
+	border:solid 3px #3d3d3d;
+	color:#3d3d3d;
+	padding:20px;
+	font-family:"Montserrat"!important;
+	margin:auto auto;
+	max-width:1000px;
+	height:fit-content;
+	text-align:center;
+	overflow-y:scroll;
+	}
+.modal3 p,.modal-body p{
+	text-align:justify;
+}
+.modal-header{
+	padding:0px;
+	border-bottom:solid 1px #3d3d3d;
+}
+.modal-body{
+	padding:0px;
+	padding-top:10px;
+}
+.modal3 span,.modal-header span{
+	float:right;
+	font-size:20px;
+}
+.modal3>h2{
+	border-bottom:solid #101010 2px;
+	padding:5px;
+	padding-top:8px;
+	padding-bottom:8px;
+	margin-bottom:50px;
+}
+.modal-header>h2{
+	margin:0px;
+	margin-top:5px;
+	padding-bottom:8px;
+}
+.modal3 button,.modal-header button{
+	box-shadow:0 2px 5px 0 rgba(0,0,0,.16);
+	padding:4px;
+	color:darkgray!important;
+	border:none;
+}
+.modal3 button:hover,.modal-header button:hover{
+	color:white!important;
+	transition:0.5s;
+}
+.coach_info{
+	width:250px;
+	color:lightgray;
+	background-color:black;
+	display:inline-block;
+	box-shadow:3px 3px 3px rgba(0,0,0,0.5);
+	margin-left:20px;
+	margin-top:20px;
+	}
+.coach_info p{
+	text-align:center;
+	height:30px;
+	margin:10px;
+}
+.coach_data{
+	background-color:black;
+	color:lightgray;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin:0px auto;
+	
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+.coach_info img{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	border:solid 2px darkgray;
+}
+.coach_info .fa{
+	width:auto;
+	padding-left:0px;
+	padding-right:10px;
+}
+.divider-new{
+	margin-top:30px;
+}
+.newModal>h2{
+	margin-bottom:20px;
+	margin-top:0px;
+	padding-top:0px;
+	z-index:1000;
+}
+.firstCover>.container{
+	color:#3d3d3d;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	font-family:"Montserrat";
+}
+.firstCover h3{
+	display:flex;
+	align-items:center;
+	verticle-align:middle;
+	color:white;
+	font-family:"Montserrat";
+}
+.firstCover>.container>h5,.firstCover h4{
+	width:80%;
+	margin:auto;
+	margin-top:16px;
+	color:white;
+	text-align:justify;
+	padding:20px;	
+	border:solid 1px white;
+	max-width:1000px;
+}
+.firstCover h3:before,.firstCover h3:after{
+	content:' ';
+	background:lightgray;
+	flex:1;
+	height:1.5px;
+	margin:10px;
+	}
+.animateColumn{
+	opacity:0;
+}
+.galleryContainer{
+	height:80vh;
+	width:100%;
+	background-color:white;
+	overflow-y:scroll;
+}
+.galleryContainer li{
+	display:inline;
+}
+.galleryContainer img{
+	width:400px;
+	height:200px;
+}
+

@@ -1,0 +1,11 @@
+.main-wrap>div
+{
+  position: relative;
+  margin: auto;
+  text-align: center;
+  height:100vh!important;
+}
+
+#block-up-arrow, #block-down-arrow {
+  cursor: pointer;
+}
