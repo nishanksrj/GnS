@@ -125,6 +125,25 @@
 					</div>
 				</div>
 					-->
+					
+					
+					<div class="item active">
+					    <div class="col-xs-12 col-sm-4 col-md-3" data-aos="flip-left" id="14">
+							<div class="news_list">
+								<div class="news_list_text">
+									<h2>Golf Workshop</h2>
+									<h4>23/06/18</h4>
+									<img class="news_list_img" src="style/images/14.jpg">
+									<br>
+									<p class="textInfo">
+										Games and Sports Council, IIT Kanpur brings you an opportunity to learn golf within the campus. A workshop in the mid of the summer would provide you a chance to step out and learn a sport that you would cherish for your lifetime.</br>Workshop Duration:23rd june - 26th june 2018
+								</div>
+								<button type="button" data-toggle="modal" data-target="#modal_14">
+									Read More
+								</button>
+							</div>
+						</div>
+					  </div>					
 				  
 				<div class="item active">
 				    <div class="col-xs-12 col-sm-4 col-md-3" data-aos="flip-left" id="13">
@@ -347,6 +366,29 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 				</div>
 			</div>
 		</div>
+
+		<div class="modal animated slideInUp" id="modal_14">
+			<div class="modal-dialog">
+				<div class="modal-content">
+								<div class="modal-header">
+						<h2 style="display:inline-block">Golf Workshop</h2>
+						<span>
+							<button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button>
+						</span>
+					</div>
+					<div class="modal-body divider-new2">
+						<h4>23/06/18</h4>
+						<img class="news_modal_img" src="style/images/14.jpg">
+						<br><br>
+						<p>
+							<strong>" A round of Golf is the ideal antidote to stress."</strong></br></br>Games and Sports Council, IIT Kanpur brings you an opportunity to learn golf within the campus. A workshop in the mid of the summer would provide you a chance to step out and learn a sport that you would cherish for your lifetime.</br></br>Workshop Duration - 23rd june - 26th june 2018
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
 		<div class="modal animated slideInUp" id="modal_13">
 			<div class="modal-dialog">
 				<div class="modal-content">
