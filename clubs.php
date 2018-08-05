@@ -77,6 +77,7 @@
 					  <li><a href="interiit.php" class="nav-link">Inter IIT</a></li>
 					  <li><a href="awards.php" class="nav-link">Awards</a></li>
 					  <li><a href="contact.php" class="nav-link">Contact Us</a></li>
+					 <li><a href="ground.php" class="nav-link">Ground Book</a></li>
 					</ul>
 				</div>
 			</div>
@@ -185,16 +186,16 @@
 				<ul style="text-align:center;padding:0px;">	
 					<li class="coach_info">
 						<div class="coach_data">
-							<h5>Sarang Bhutada</h5>
-							<p><i class="fa fa-phone"></i>7839984188</p>
-							<p><i class="fa fa-envelope"></i>sarangb@iitk.ac.in</p>
+							<h5>Manish Dindor</h5>
+							<p><i class="fa fa-phone"></i>+91-7054177298</p>
+							<p><i class="fa fa-envelope"></i>mdindor@iitk.ac.in</p>
 						</div>
 					</li>
 					<li class="coach_info">	
 						<div class="coach_data">
-							<h5>Mahesh Singh Bisht</h5>
-							<p><i class="fa fa-phone"></i>9198278551</p>
-							<p><i class="fa fa-envelope"></i>msbisht@iitk.ac.in</p>
+							<h5>Rahul Bhardwaj</h5>
+							<p><i class="fa fa-phone"></i>+91-7054129420</p>
+							<p><i class="fa fa-envelope"></i>rahulbh@iitk.ac.in</p>
 						</div>
 					</li>
 				</ul>
@@ -237,16 +238,16 @@ The games are kept at the Games and Sports Council room, Ground Floor, New SAC. 
 				<ul style="text-align:center;padding:0px;">	
 					<li class="coach_info">
 						<div class="coach_data">
-							<h5>Apoorva Sheera</h5>
-							<p><i class="fa fa-phone"></i></p>
-							<p><i class="fa fa-envelope"></i>apoorvav@iitk.ac.in</p>
+							<h5>Saksham Kaushik</h5>
+							<p><i class="fa fa-phone"></i>+91-7318019016</p>
+							<p><i class="fa fa-envelope"></i>sakshamk@iitk.ac.in</p>
 						</div>
 					</li>
 					<li class="coach_info">
 						<div class="coach_data">
-							<h5>Siddhant Thakur</h5>
-							<p><i class="fa fa-phone"></i>9810065947</p>
-							<p><i class="fa fa-envelope"></i>sithakur@iitk.ac.in</p>
+							<h5>Divyansh Chawla</h5>
+							<p><i class="fa fa-phone"></i>+91-8601727040</p>
+							<p><i class="fa fa-envelope"></i>chdivy@iitk.ac.in</p>
 						</div>
 					</li>
 				</ul>
@@ -287,9 +288,16 @@ The primary motto of the club is to popularize chess as a hobby among the campus
 				<ul style="text-align:center;padding:0px;">	
 					<li class="coach_info">
 						<div class="coach_data">
-							<h5>Keshav Verma</h5>
-							<p><i class="fa fa-phone"></i>9453994643</p>
-							<p><i class="fa fa-envelope"></i>vkeshav@iitk.ac.in</p>
+							<h5>Nikhol Gokul
+							<p><i class="fa fa-phone"></i>+91-7318019935</p>
+							<p><i class="fa fa-envelope"></i>gnikhil@iitk.ac.in</p>
+						</div>
+					</li>
+					<li class="coach_info">
+						<div class="coach_data">
+							<h5>Kaustav Kashyap Das</h5>
+							<p><i class="fa fa-phone"></i>+91-7318019134</p>
+							<p><i class="fa fa-envelope"></i>kaustavn@iitk.ac.in</p>
 						</div>
 					</li>
 				</ul>
@@ -325,18 +333,10 @@ The primary motto of the club is to popularize chess as a hobby among the campus
 				<ul style="text-align:center;padding:0px;">	
 					<li class="coach_info">
 						<div class="coach_data">
-							<h5>Kallol Datta</h5>
-							<p><i class="fa fa-phone"></i>7376107495</p>
-							<p><i class="fa fa-envelope"></i>kdatta@iitk.ac.in</p>
+							<h5>Pence Mataria</h5>
+							<p><i class="fa fa-phone"></i>+91-9727799001</p>
+							<p><i class="fa fa-envelope"></i>pencem@iitk.ac.in</p>
 						</div>
-					</li>
-					<li class="coach_info">
-						<div class="coach_data">
-							<h5>Pratik Sarkar</h5>
-							<p><i class="fa fa-phone"></i>9748567629</p>
-							<p><i class="fa fa-envelope"></i>pratikj@iitk.ac.in</p>
-						</div>
-					</li>
 				</ul>
 			</div>
 			</div>
@@ -376,16 +376,16 @@ Activities – We have been organizing the basic workshop for teaching skates on
 				<ul style="text-align:center;padding:0px;">	
 					<li class="coach_info">
 						<div class="coach_data">
-							<h5>Pallav Kulhari</h5>
-							<p><i class="fa fa-phone"></i>7318020809</p>
-							<p><i class="fa fa-envelope"></i>pallavk@iitk.ac.in</p>
+							<h5>Rahul Ranjan</h5>
+							<p><i class="fa fa-phone"></i>+91-9472553655</p>
+							<p><i class="fa fa-envelope"></i>cranjan@iitk.ac.in</p>
 						</div>
 					</li>	
 					<li class="coach_info">
 						<div class="coach_data">
-							<h5>Abhinav Arora</h5>
-							<p><i class="fa fa-phone"></i>9599811980</p>
-							<p><i class="fa fa-envelope"></i>abhiar@iitk.ac.in</p>
+							<h5>Archit Agrawal</h5>
+							<p><i class="fa fa-phone"></i>+91-9005736016</p>
+							<p><i class="fa fa-envelope"></i>architag@iitk.ac.in</p>
 						</div>
 					</li>
 				</ul>
@@ -426,17 +426,17 @@ Activities – We have been organizing the basic workshop for teaching skates on
 				<ul style="text-align:center;padding:0px;">	
 					<li class="coach_info">
 						<div class="coach_data">
-							<h5>Kshitij Pratap Singh</h5>
-							<p><i class="fa fa-phone"></i>9634677955</p>
-							<p><i class="fa fa-envelope"></i>kshitijp@iitk.ac.in
+							<h5>Abhishek Pandit</h5>
+							<p><i class="fa fa-phone"></i>+91-9436786945</p>
+							<p><i class="fa fa-envelope"></i>apandit@iitk.ac.in
 </p>
 						</div>
 					</li>
 					<li class="coach_info">
 						<div class="coach_data">
-							<h5>Ankan Bhattacharya</h5>
-							<p><i class="fa fa-phone"></i>9519189580</p>
-							<p><i class="fa fa-envelope"></i>ankanb@iitk.ac.in
+							<h5>Sarika Kushwaha</h5>
+							<p><i class="fa fa-phone"></i>+91-8349700798</p>
+							<p><i class="fa fa-envelope"></i>ksarika@iitk.ac.in
 </p>
 						</div>
 					</li>
@@ -469,9 +469,9 @@ Activities – We have been organizing the basic workshop for teaching skates on
 				<ul style="text-align:center;padding:0px;">	
 					<li class="coach_info">
 						<div class="coach_data">
-							<h5>Saurabh Singh</h5>
-							<p><i class="fa fa-phone"></i>9034315119</p>
-							<p><i class="fa fa-envelope"></i>sausingh@iitk.ac.in</p>
+							<h5>Tage Jigi</h5>
+							<p><i class="fa fa-phone"></i>+91-9383001730</p>
+							<p><i class="fa fa-envelope"></i>tagejigi@iitk.ac.in</p>
 						</div>
 					</li>
 				</ul>
@@ -503,16 +503,9 @@ Activities – We have been organizing the basic workshop for teaching skates on
 				<ul style="text-align:center;padding:0px;">	
 					<li class="coach_info">
 						<div class="coach_data">			
-							<h5>Prof. Joydeep Dutta</h5>
-							<p><i class="fa fa-phone"></i>8009956390</p>
-							<p><i class="fa fa-envelope"></i>jdutta@iitk.ac.in</p>
-						</div>
-					</li>
-					<li class="coach_info">
-						<div class="coach_data">			
-							<h5>Ankan Bhattacharya</h5>
-							<p><i class="fa fa-phone"></i> 9519189580</p>
-							<p><i class="fa fa-envelope"></i>ankanb@iitk.ac.in</p>
+							<h5>Vishnu Kumar Bankoliya</h5>
+							<p><i class="fa fa-phone"></i>+91-7318020823</p>
+							<p><i class="fa fa-envelope"></i>vishnub@iitk.ac.in</p>
 						</div>
 					</li>
 				</ul>
@@ -526,13 +519,13 @@ Activities – We have been organizing the basic workshop for teaching skates on
 	<footer data-aos="fadeIn" data-aos-offset="5">
 			<ul>
 				<li>
-					<a href="https://www.facebook.com/sports.iitk/?fref=ts" class="fa fa-facebook"></a>
+					<a href="https://www.facebook.com/sports.iitk/?fref=ts" target="_blank" class="fa fa-facebook"></a>
 				</li>
 				<li>
-					<a href="https://www.instagram.com/games_sports_council/?hl=en" class="fa fa-instagram"></a>
+					<a href="https://www.instagram.com/games_and_sports.council.iitk/" target="_blank" class="fa fa-instagram"></a>
 				</li>
 				<li>
-					<a href="https://www.youtube.com/channel/UC_DYfHIfAlTH3ECXXCGo_9g" class="fa fa-youtube"></a>
+					<a href="https://www.youtube.com/channel/UC_DYfHIfAlTH3ECXXCGo_9g" target="_blank" class="fa fa-youtube"></a>
 				</li>
 			</ul>
 			<div class="container-fluid" align="center"> &#169; 2018 Copyright: Web Executive, GnS Council</div>
