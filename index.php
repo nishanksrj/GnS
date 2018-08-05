@@ -77,6 +77,7 @@
 					  <li><a href="interiit.php" class="nav-link">Inter IIT</a></li>
 					  <li><a href="awards.php" class="nav-link">Awards</a></li>
 					  <li><a href="contact.php" class="nav-link">Contact Us</a></li>
+					  <li><a href="ground.php" class="nav-link">Ground Book</a></li>
 					</ul>
 				</div>
 			</div>
@@ -125,25 +126,6 @@
 					</div>
 				</div>
 					-->
-					
-					
-					<div class="item active">
-					    <div class="col-xs-12 col-sm-4 col-md-3" data-aos="flip-left" id="14">
-							<div class="news_list">
-								<div class="news_list_text">
-									<h2>Golf Workshop</h2>
-									<h4>23/06/18</h4>
-									<img class="news_list_img" src="style/images/14.jpg">
-									<br>
-									<p class="textInfo">
-										Games and Sports Council, IIT Kanpur brings you an opportunity to learn golf within the campus. A workshop in the mid of the summer would provide you a chance to step out and learn a sport that you would cherish for your lifetime.</br>Workshop Duration:23rd june - 26th june 2018
-								</div>
-								<button type="button" data-toggle="modal" data-target="#modal_14">
-									Read More
-								</button>
-							</div>
-						</div>
-					  </div>					
 				  
 				<div class="item active">
 				    <div class="col-xs-12 col-sm-4 col-md-3" data-aos="flip-left" id="13">
@@ -342,7 +324,7 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 			  <hr style="width:10vw;align:center;border-color:darkgray;border-width:1.5px;">
 			  <br><br>
 			<div class="container upcoming" align="middle">
-				<iframe width="80%" height="360" style="margin-top:10px;margin-bottom:10px;max-width: 900px;" src="https://www.youtube.com/embed/YR9qIwYABdY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<iframe width="75%" height="480" style="margin-top:10px;margin-bottom:10px;max-width: 900px;" src="style/FINAL_VIDEO.mp4" frameborder="0" encrypted-media" allowfullscreen></iframe>
 				<br><br><hr style="width:10vw;align:center;border-color:darkgray;border-width:2px;">
 			</div>
 		</div>
@@ -362,33 +344,10 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 					</h4>
 				</div>
 				<div class="col-md-6" data-aos="fadeIn" style="min-height:60vh;">
-					<iframe width="100%" height="360" src="https://www.youtube.com/embed/A-sHzaik-2U" frameborder="0" allowfullscreen=""></iframe>
+					<iframe width="100%" height="353" src="style/FINAL_VIDEO.mp4"></iframe>
 				</div>
 			</div>
 		</div>
-
-		<div class="modal animated slideInUp" id="modal_14">
-			<div class="modal-dialog">
-				<div class="modal-content">
-								<div class="modal-header">
-						<h2 style="display:inline-block">Golf Workshop</h2>
-						<span>
-							<button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button>
-						</span>
-					</div>
-					<div class="modal-body divider-new2">
-						<h4>23/06/18</h4>
-						<img class="news_modal_img" src="style/images/14.jpg">
-						<br><br>
-						<p>
-							<strong>" A round of Golf is the ideal antidote to stress."</strong></br></br>Games and Sports Council, IIT Kanpur brings you an opportunity to learn golf within the campus. A workshop in the mid of the summer would provide you a chance to step out and learn a sport that you would cherish for your lifetime.</br></br>Workshop Duration - 23rd june - 26th june 2018
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
 		<div class="modal animated slideInUp" id="modal_13">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -649,13 +608,13 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 		<footer data-aos="fadeIn" data-aos-offset="5">
 			<ul>
 				<li>
-					<a href="https://www.facebook.com/sports.iitk/?fref=ts" class="fa fa-facebook"></a>
+					<a href="https://www.facebook.com/sports.iitk/?fref=ts" target="_blank" class="fa fa-facebook"></a>
 				</li>
 				<li>
-					<a href="https://www.instagram.com/games_sports_council/?hl=en" class="fa fa-instagram"></a>
+					<a href="https://www.instagram.com/games_and_sports.council.iitk/" target="_blank" class="fa fa-instagram"></a>
 				</li>
 				<li>
-					<a href="https://www.youtube.com/channel/UC_DYfHIfAlTH3ECXXCGo_9g" class="fa fa-youtube"></a>
+					<a href="https://www.youtube.com/channel/UC_DYfHIfAlTH3ECXXCGo_9g" target="_blank" class="fa fa-youtube"></a>
 				</li>
 			</ul>
 			<div class="container-fluid" align="center"><a style="color:darkgray;" href="feedback.php">Give us a feedback</a><br> &#169; 2018 Copyright: Web Executive, GnS Council</div>
