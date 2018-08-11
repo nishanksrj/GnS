@@ -88,7 +88,9 @@
 	<div class="firstCover container-fluid">
 		<p style='font-family:"edo";font-size:4em;color:lightgray;text-align:center;flex-direction:row;display:flex;justify-content:center;align-items:center;'>Ground Booking</p>
 		<div class="container">
-		<a href="https://www.cse.iitk.ac.in/users/swaprava/football.html">
+	<!--	<a href="https://www.cse.iitk.ac.in/users/swaprava/football.html">  -->
+			
+		<a href="football/football.html">
 		<div class="row sports_info" style="text-align:center;padding:0px;height:40%;width:40%;">
 
 			<div class="sports_container col-lg-12 col-md-12 col-sm-12 col-lg-12 animated" data-aos="flip-left">
