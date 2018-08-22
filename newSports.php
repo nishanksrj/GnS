@@ -6,11 +6,11 @@
 	<meta name="keyword" content="Games,Sports,Games and Sports Council,IITK">
 	<meta name=”description” content="">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 	<![endif]-->
-	
+
 	<!-- JQuery plugins -->
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
@@ -27,61 +27,82 @@
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		
+
 		<link href="style/layout.css" rel="stylesheet">
-		
+
 		<link href="style/sports.css" rel="stylesheet">
-		
+
 		<link href="style/aos.css" rel="stylesheet">
-		
+
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		
+
 		<!-- Animation css -->
 		<link href="style/animate.css" rel="stylesheet">
 
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		
-		
+
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		
-		
+
+
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
 
 	<!-- navigation bar -->
-	<nav class="navbar navbar-default transparent ">
-		  <div class="container-fluid">
-			<div class="navbar-header">
-			  <a class="navbar-brand" href="#"><div class="logoContainer"><img src="style/images/logo.png" style="width:50px;height:50px;"></div></a>
-			  
-			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-			</button>
-			
+	<nav class="navbar navbar-inverse transparent ">
+		<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="http://students.iitk.ac.in/sports"><div class="logoContainer"><img src="style/images/logo.png" style="width:50px;height:50px;"></div></a>
+
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+		</button>
+
+		</div>
+		<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+			<div id="mynavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.php" class="nav-link">Home</a></li>
+					<li>
+						<div class="dropdown nav-link">
+							<a class="dropbtn" style="text-decoration:none;color:lightgray;">Sports
+								<i class="fa fa-caret-down"></i>
+							</a>
+							<div class="dropdown-content">
+								<a href="sports.php" class="nav-link">Sports</a>
+								<a href="clubs.php" class="nav-link">Clubs</a>
+								<a href="events.php" class="nav-link">Events</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="interiit.php" class="nav-link">Inter IIT</a></li>
+					<li>
+						<div class="dropdown nav-link">
+							<a class="dropbtn" style="text-decoration:none;color:lightgray;">Important
+								<i class="fa fa-caret-down"></i>
+							</a>
+							<div class="dropdown-content">
+								<a href="awards.php" class="nav-link">Awards</a>
+								<a href="ob.php" class="nav-link">Orientation Brochure</a>
+							</div>
+						</div>
+					</li>
+
+					<li><a href="contact.php" class="nav-link">Contact Us</a></li>
+
+				</ul>
 			</div>
-			<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
-				<div id="mynavbar">
-					<ul class="nav navbar-nav navbar-right">
-					  <li><a href="index.php" class="nav-link">Home</a></li>
-					  <li><a href="sports.php" class="nav-link">Sports</a></li>
-					  <li><a href="clubs.php" class="nav-link">Clubs</a></li>
-					  <li><a href="events.php" class="nav-link">Events</a></li>
-					  <li><a href="interiit.php" class="nav-link">Inter IIT</a></li>
-					  <li><a href="awards.php" class="nav-link">Awards</a></li>
-					  <li><a href="contact.php" class="nav-link">Contact Us</a></li>
-					</ul>
-				</div>
-			</div>
-		  </div>
-		</nav>	
+		</div>
+		</div>
+	</nav>	
 	<div class="firstCover container-fluid">
 		<p style='font-family:"edo";font-size:4em;color:lightgray;text-align:center;flex-direction:row;display:flex;justify-content:center;align-items:center;'>Sports</p>
 		<div class="container-fluid">
@@ -190,18 +211,18 @@
 					<p>WeightLifting</p>
 					<div class="sports_image">
 						<img src="style/images/weightlifting.jpg">
-					</div>	
+					</div>
 					<button type="button" data-toggle="modal" data-target="#weightlifting">Read More</button>
 				</div>
 			</div>
 		</div>
 		</div>
-	</div>	
-	
+	</div>
+
 	<!-- aquatics -->
 	<div class="modal animated slideInUp" id="aquatics">
 		<div class="modal3">
-			<span><button type="button" data-toggle="modal" data-target="#aquatics"><i class="glyphicon glyphicon-remove"></i></button></span>	
+			<span><button type="button" data-toggle="modal" data-target="#aquatics"><i class="glyphicon glyphicon-remove"></i></button></span>
 			<h2>Aquatics</h2>
 			<div class="divider-new2">
 				<h2>About Us</h2>
@@ -213,7 +234,7 @@
 			</div>
 			<div class="divider-new">
 				<h2>Coach</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<img src="style/images/people/aquatics1.jpg">
@@ -222,7 +243,7 @@
 							<p><i class="fa fa-envelope"></i>vrvadi@iitk.ac.in</p>
 						</div>
 					</li>
-					<li class="coach_info">	
+					<li class="coach_info">
 						<div class="coach_data">
 							<img src="style/images/people/aquatics2.jpg">
 							<h5>Santosh Joshi</h5>
@@ -234,9 +255,9 @@
 			</div>
 			<div class="divider-new">
 				<h2>Captains</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">	
+						<div class="coach_data">
 							<img src="style/images/people/AquaticsM.jpg">
 							<h5>Anant Vats</h5>
 							<p><i class="fa fa-phone"></i>7388786202</p>
@@ -245,7 +266,7 @@
 					</li>
 					<li class="coach_info">
 						<div class="coach_data">
-							<img src="style/images/people/AquaticsW.jpg">	
+							<img src="style/images/people/AquaticsW.jpg">
 							<h5>Rachita Bhattacharya</h5>
 							<p><i class="fa fa-phone"></i>9696435470</p>
 							<p><i class="fa fa-envelope"></i>rachitab@iitk.ac.in</p>
@@ -255,7 +276,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- Athletics -->
 	<div class="modal animated slideInUp" id="athletics">
 		<div class="modal3">
@@ -263,7 +284,7 @@
 			<h2>Athletics</h2>
 			<div class="divider-new2">
 				<h2>About Us</h2>
-				<p>Athletics is considered to be the Father of all Games and is in fact The Way of Living and not just a sport. 
+				<p>Athletics is considered to be the Father of all Games and is in fact The Way of Living and not just a sport.
 An Athlete is an all-round sportsperson with skills for cricket, football, badminton, etc. and has immense control of his body and senses. Athletics not only builds you physically but it helps in body coordination and gives you mental stiffness. So be a part of it to know yourself and the way of your life.</p>
 			</div>
 			<div class="divider-new2">
@@ -272,7 +293,7 @@ An Athlete is an all-round sportsperson with skills for cricket, football, badmi
 			</div>
 			<div class="divider-new">
 				<h2>Coach</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<img src="style/images/people/athletics1.jpg">
@@ -283,7 +304,7 @@ An Athlete is an all-round sportsperson with skills for cricket, football, badmi
 					</li>
 					<li class="coach_info">
 						<div class="coach_data">
-							<img src="style/images/people/athletics2.jpg">	
+							<img src="style/images/people/athletics2.jpg">
 							<h5>Deepak Dhanowa</h5>
 							<p><i class="fa fa-phone"></i>8006780032</p>
 							<p><i class="fa fa-envelope"></i>ddhanowa@iitk.ac.in</p>
@@ -301,9 +322,9 @@ An Athlete is an all-round sportsperson with skills for cricket, football, badmi
 			</div>
 			<div class="divider-new">
 				<h2>Captains</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">	
+						<div class="coach_data">
 							<img src="style/images/people/AthleticsM.jpg">
 							<h5>Jaswinder Singh</h5>
 							<p><i class="fa fa-phone"></i>7054122875</p>
@@ -312,7 +333,7 @@ An Athlete is an all-round sportsperson with skills for cricket, football, badmi
 					</li>
 					<li class="coach_info">
 						<div class="coach_data">
-							<img src="style/images/people/AthleticsW.jpg">	
+							<img src="style/images/people/AthleticsW.jpg">
 							<h5>Asha </h5>
 							<p><i class="fa fa-phone"></i>7054127652</p>
 							<p><i class="fa fa-envelope"></i>ashab@iitk.ac.in</p>
@@ -322,7 +343,7 @@ An Athlete is an all-round sportsperson with skills for cricket, football, badmi
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- badminton -->
 	<div class="modal animated slideInUp" id="badminton">
 		<div class="modal3">
@@ -339,7 +360,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Coach</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<img src="style/images/people/badminton.jpg">
@@ -352,9 +373,9 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Captains</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">	
+						<div class="coach_data">
 							<img src="style/images/people/BadmintonM.jpg">
 							<h5>Rishabh Krishna Gupta</h5>
 							<p><i class="fa fa-phone"></i>9140871485</p>
@@ -363,7 +384,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 					</li>
 					<li class="coach_info">
 						<div class="coach_data">
-							<img src="style/images/people/BadmintonW.jpg">	
+							<img src="style/images/people/BadmintonW.jpg">
 							<h5>Vaishnavi Bhope</h5>
 							<p><i class="fa fa-phone"></i>7754916139</p>
 							<p><i class="fa fa-envelope"></i>vdbhope@iitk.ac.in</p>
@@ -373,7 +394,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- basketball-->
 	<div class="modal animated slideInUp" id="basketball">
 		<div class="modal3">
@@ -389,7 +410,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Coach</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<img src="style/images/people/basketball.jpg">
@@ -402,9 +423,9 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Captains</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">	
+						<div class="coach_data">
 							<img src="style/images/people/BasketballM.jpg">
 							<h5>Shivam Singh</h5>
 							<p><i class="fa fa-phone"></i>9453148577</p>
@@ -413,7 +434,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 					</li>
 					<li class="coach_info">
 						<div class="coach_data">
-							<img src="style/images/people/BasketballW.jpg">	
+							<img src="style/images/people/BasketballW.jpg">
 							<h5>Aakanksha</h5>
 							<p><i class="fa fa-phone"></i>7054177605</p>
 							<p><i class="fa fa-envelope"></i>aakanksh@iitk.ac.in</p>
@@ -439,7 +460,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Coach</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<img src="style/images/people/cricket.jpg">
@@ -452,9 +473,9 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Captains</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">	
+						<div class="coach_data">
 							<img src="style/images/people/Cricket.jpg">
 							<h5>Sanket Katore</h5>
 							<p><i class="fa fa-phone"></i> 9044028241</p>
@@ -465,12 +486,12 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 		</div>
 	</div>
-	
+
 	<!--Football -->
 	<div class="modal animated slideInUp" id="football">
 		<div class="modal3">
 			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
-			<h2>Football</h2> 
+			<h2>Football</h2>
 			<div class="divider-new2">
 				<h2>About Us</h2>
 				<p>The Football team of IITK is the sanest entity in the wildlife sanctuary of IIT Kanpur. The Football ground is a place visited by choice. It is a place where there is no distinction between seniors and juniors until it comes to collecting balls at the end of our practice sessions. One enjoys every moment while here, even when our beloved coach is administering the last push up during cool down. Our team can be summarized in two phrases: "Vaaryapayam" and "Bharat Mata ki Jai".</p>
@@ -481,7 +502,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Coach</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<img src="style/images/people/football.jpg">
@@ -494,9 +515,9 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Captains</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">	
+						<div class="coach_data">
 							<img src="style/images/people/Football.jpg">
 							<h5>Saurav Krishna</h5>
 							<p><i class="fa fa-phone"></i> 9454025365</p>
@@ -507,7 +528,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- Hockey -->
 	<div class="modal animated slideInUp" id="hockey">
 		<div class="modal3">
@@ -523,7 +544,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Coach</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<img src="style/images/people/hockey.jpg">
@@ -536,9 +557,9 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Captains</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">	
+						<div class="coach_data">
 							<img src="style/images/people/Hockey.jpg">
 							<h5>Raj Kumar Meena</h5>
 							<p><i class="fa fa-phone"></i>7991377534</p>
@@ -549,7 +570,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- Lawn Tennis -->
 	<div class="modal animated slideInUp" id="lawntennis">
 		<div class="modal3">
@@ -565,9 +586,9 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Coach</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">			
+						<div class="coach_data">
 							<img src="style/images/people/lawntennis.jpg">
 							<h5>Rajkumar Parihar</h5>
 							<p><i class="fa fa-phone"></i>9415073407</p>
@@ -578,9 +599,9 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Captains</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">	
+						<div class="coach_data">
 							<img src="style/images/people/LawnTennisM.jpg">
 							<h5>Parameswar Pal</h5>
 							<p><i class="fa fa-phone"></i>9956234944</p>
@@ -589,7 +610,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 					</li>
 					<li class="coach_info">
 						<div class="coach_data">
-							<img src="style/images/people/LawnTennisW.jpg">	
+							<img src="style/images/people/LawnTennisW.jpg">
 							<h5>Monal Goel</h5>
 							<p><i class="fa fa-phone"></i>7318020342</p>
 							<p><i class="fa fa-envelope"></i>monal@iitk.ac.in</p>
@@ -615,22 +636,22 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Coach</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<img src="style/images/people/squash.jpg">
 							<h5>Ishaan Ahmed</h5>
 							<p><i class="fa fa-phone"></i>7905258227</p>
 							<p><i class="fa fa-envelope"></i>@iitk.ac.in</p>
-						</div>	
+						</div>
 					</li>
 				</ul>
 			</div>
 			<div class="divider-new">
 				<h2>Captains</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">	
+						<div class="coach_data">
 							<img src="style/images/people/Squash.jpg">
 							<h5>Kishan Sankharva</h5>
 							<p><i class="fa fa-phone"></i>8980808997</p>
@@ -640,8 +661,8 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 				</ul>
 			</div>
 		</div>
-	</div>		
-	
+	</div>
+
 	<!-- TableTennis -->
 	<div class="modal animated slideInUp" id="tabletennis">
 		<div class="modal3">
@@ -657,7 +678,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Coach</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<img src="style/images/people/tabletennis.jpg">
@@ -670,9 +691,9 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Captains</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">	
+						<div class="coach_data">
 							<img src="style/images/people/TableTennisM.jpg">
 							<h5>Bapan Saha</h5>
 							<p><i class="fa fa-phone"></i>7839984186</p>
@@ -681,7 +702,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 					</li>
 					<li class="coach_info">
 						<div class="coach_data">
-							<img src="style/images/people/TableTennisW.jpg">	
+							<img src="style/images/people/TableTennisW.jpg">
 							<h5>Chitranshi Singh</h5>
 							<p><i class="fa fa-phone"></i>9149160952</p>
 							<p><i class="fa fa-envelope"></i>chitra@iitk.ac.in</p>
@@ -708,7 +729,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Coach</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<img src="style/images/people/volleyball.jpg">
@@ -721,9 +742,9 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Captains</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">	
+						<div class="coach_data">
 							<img src="style/images/people/VolleyballM.jpg">
 							<h5>Pankaj Kumar</h5>
 							<p><i class="fa fa-phone"></i>7388771714</p>
@@ -732,7 +753,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 					</li>
 					<li class="coach_info">
 						<div class="coach_data">
-							<img src="style/images/people/VolleyballW.jpg">	
+							<img src="style/images/people/VolleyballW.jpg">
 							<h5>Neha Chauhan </h5>
 							<p><i class="fa fa-phone"></i>7983682161</p>
 							<p><i class="fa fa-envelope"></i>chneha@iitk.ac.in</p>
@@ -742,7 +763,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- WeightLifting-->
 	<div class="modal animated slideInUp" id="weightlifting">
 		<div class="modal3">
@@ -758,7 +779,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Coach</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<img src="style/images/people/weightlifting.jpg">
@@ -771,9 +792,9 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 			</div>
 			<div class="divider-new">
 				<h2>Captains</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">	
+						<div class="coach_data">
 							<img src="style/images/people/Weightlifting.jpg">
 							<h5>Suraj Yadav</h5>
 							<p><i class="fa fa-phone"></i>7054123127</p>
@@ -783,7 +804,7 @@ Badminton is the world's fastest racquet sport: a shuttle can leave the racket a
 				</ul>
 			</div>
 		</div>
-	</div>	
+	</div>
 	<footer data-aos="fadeIn" data-aos-offset="20">
 			<ul>
 				<li>

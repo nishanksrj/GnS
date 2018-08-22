@@ -6,11 +6,11 @@
 	<meta name="keyword" content="Games,Sports,Games and Sports Council,IITK">
 	<meta name=”description” content="">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 	<![endif]-->
-	
+
 	<!-- JQuery plugins -->
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
@@ -27,62 +27,82 @@
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		
+
 		<link href="style/layout.css" rel="stylesheet">
-		
+
 		<link href="style/sports.css" rel="stylesheet">
-		
+
 		<link href="style/aos.css" rel="stylesheet">
-		
+
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		
+
 		<!-- Animation css -->
 		<link href="style/animate.css" rel="stylesheet">
 
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		
-		
+
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		
-		
+
+
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
 
 	<!-- navigation bar -->
-	<nav class="navbar navbar-default transparent ">
-		  <div class="container-fluid">
-			<div class="navbar-header">
-			  <a class="navbar-brand" href="#"><div class="logoContainer"><img src="style/images/logo.png" style="width:50px;height:50px;"></div></a>
-			  
-			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-			</button>
-			
+	<nav class="navbar navbar-inverse transparent ">
+		<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="http://students.iitk.ac.in/sports"><div class="logoContainer"><img src="style/images/logo.png" style="width:50px;height:50px;"></div></a>
+
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+		</button>
+
+		</div>
+		<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+			<div id="mynavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.php" class="nav-link">Home</a></li>
+					<li>
+						<div class="dropdown nav-link">
+							<a class="dropbtn" style="text-decoration:none;color:lightgray;">Sports
+								<i class="fa fa-caret-down"></i>
+							</a>
+							<div class="dropdown-content">
+								<a href="sports.php" class="nav-link">Sports</a>
+								<a href="clubs.php" class="nav-link">Clubs</a>
+								<a href="events.php" class="nav-link">Events</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="interiit.php" class="nav-link">Inter IIT</a></li>
+					<li>
+						<div class="dropdown nav-link">
+							<a class="dropbtn" style="text-decoration:none;color:lightgray;">Important
+								<i class="fa fa-caret-down"></i>
+							</a>
+							<div class="dropdown-content">
+								<a href="awards.php" class="nav-link">Awards</a>
+								<a href="ob.php" class="nav-link">Orientation Brochure</a>
+							</div>
+						</div>
+					</li>
+
+					<li><a href="contact.php" class="nav-link">Contact Us</a></li>
+
+				</ul>
 			</div>
-			<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
-				<div id="mynavbar">
-					<ul class="nav navbar-nav navbar-right">
-					  <li><a href="index.php" class="nav-link">Home</a></li>
-					  <li><a href="sports.php" class="nav-link">Sports</a></li>
-					  <li><a href="clubs.php" class="nav-link">Clubs</a></li>
-					  <li><a href="events.php" class="nav-link">Events</a></li>
-					  <li><a href="interiit.php" class="nav-link">Inter IIT</a></li>
-					  <li><a href="awards.php" class="nav-link">Awards</a></li>
-					  <li><a href="contact.php" class="nav-link">Contact Us</a></li>
-					 <li><a href="ground.php" class="nav-link">Ground Book</a></li>
-					</ul>
-				</div>
-			</div>
-		  </div>
-		</nav>	
+		</div>
+		</div>
+	</nav>
 	<div class="firstCover container-fluid">
 		<p style='font-family:"edo";font-size:4em;color:lightgray;text-align:center;flex-direction:row;display:flex;justify-content:center;align-items:center;'>Clubs & Hobby Groups</p>
 		<div class="container-fluid">
@@ -159,17 +179,17 @@
 					<button type="button" data-toggle="modal" data-target="#lawntennis">Read More</button>
 				</div>
 			</div>
-			
+
 		</div>
 		</div>
-	</div>	
-	
+	</div>
+
 	<!-- adventure -->
 	<div class="modal animated slideInUp" id="adventure">
-		<div class="modal-dialog">	
+		<div class="modal-dialog">
 			<div class="modal-content">
 			<div class="modal-header">
-			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>	
+			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
 			<h2>Adventure Club</h2>
 			</div>
 			<div class="modal-body">
@@ -183,7 +203,7 @@
 			</div>
 			<div class="divider-new">
 				<h2>Contact</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<h5>Manish Dindor</h5>
@@ -191,7 +211,7 @@
 							<p><i class="fa fa-envelope"></i>mdindor@iitk.ac.in</p>
 						</div>
 					</li>
-					<li class="coach_info">	
+					<li class="coach_info">
 						<div class="coach_data">
 							<h5>Rahul Bhardwaj</h5>
 							<p><i class="fa fa-phone"></i>+91-7054129420</p>
@@ -204,10 +224,10 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- card -->
 	<div class="modal animated slideInUp" id="card">
-		<div class="modal-dialog">	
+		<div class="modal-dialog">
 			<div class="modal-content">
 			<div class="modal-header">
 			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
@@ -235,7 +255,7 @@ The games are kept at the Games and Sports Council room, Ground Floor, New SAC. 
 			</div>
 			<div class="divider-new">
 				<h2>Contact</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<h5>Saksham Kaushik</h5>
@@ -256,10 +276,10 @@ The games are kept at the Games and Sports Council room, Ground Floor, New SAC. 
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- chess -->
 	<div class="modal animated slideInUp" id="chess">
-		<div class="modal-dialog">	
+		<div class="modal-dialog">
 			<div class="modal-content">
 			<div class="modal-header">
 			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
@@ -285,7 +305,7 @@ The primary motto of the club is to popularize chess as a hobby among the campus
 			</div>
 			<div class="divider-new">
 				<h2>Contact</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<h5>Nikhol Gokul
@@ -306,10 +326,10 @@ The primary motto of the club is to popularize chess as a hobby among the campus
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- shooting club-->
 	<div class="modal animated slideInUp" id="shooting">
-		<div class="modal-dialog">	
+		<div class="modal-dialog">
 			<div class="modal-content">
 			<div class="modal-header">
 			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
@@ -330,7 +350,7 @@ The primary motto of the club is to popularize chess as a hobby among the campus
 			</div>
 			<div class="divider-new">
 				<h2>Contact</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<h5>Pence Mataria</h5>
@@ -346,7 +366,7 @@ The primary motto of the club is to popularize chess as a hobby among the campus
 
 	<!-- skating-->
 	<div class="modal animated slideInUp" id="skating">
-		<div class="modal-dialog">	
+		<div class="modal-dialog">
 			<div class="modal-content">
 			<div class="modal-header">
 			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
@@ -373,14 +393,14 @@ Activities – We have been organizing the basic workshop for teaching skates on
 			</div>
 			<div class="divider-new">
 				<h2>Contact</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<h5>Rahul Ranjan</h5>
 							<p><i class="fa fa-phone"></i>+91-9472553655</p>
 							<p><i class="fa fa-envelope"></i>cranjan@iitk.ac.in</p>
 						</div>
-					</li>	
+					</li>
 					<li class="coach_info">
 						<div class="coach_data">
 							<h5>Archit Agrawal</h5>
@@ -394,14 +414,14 @@ Activities – We have been organizing the basic workshop for teaching skates on
 			</div>
 		</div>
 	</div>
-	
+
 	<!--taekwondo -->
 	<div class="modal animated slideInUp" id="taekwondo">
-		<div class="modal-dialog">	
+		<div class="modal-dialog">
 			<div class="modal-content">
 			<div class="modal-header">
 			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
-			<h2>Taekwondo</h2> 
+			<h2>Taekwondo</h2>
 			</div>
 			<div class="modal-body">
 			<div class="divider-new2">
@@ -423,7 +443,7 @@ Activities – We have been organizing the basic workshop for teaching skates on
 			</div>
 			<div class="divider-new">
 				<h2>Contact</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<h5>Abhishek Pandit</h5>
@@ -446,10 +466,10 @@ Activities – We have been organizing the basic workshop for teaching skates on
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- boxing -->
 	<div class="modal animated slideInUp" id="boxing">
-		<div class="modal-dialog">	
+		<div class="modal-dialog">
 			<div class="modal-content">
 			<div class="modal-header">
 			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
@@ -466,7 +486,7 @@ Activities – We have been organizing the basic workshop for teaching skates on
 			</div>
 			<div class="divider-new">
 				<h2>Contact</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
 						<div class="coach_data">
 							<h5>Tage Jigi</h5>
@@ -480,10 +500,10 @@ Activities – We have been organizing the basic workshop for teaching skates on
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- bicycling -->
 	<div class="modal animated slideInUp" id="bicycling">
-		<div class="modal-dialog">	
+		<div class="modal-dialog">
 			<div class="modal-content">
 			<div class="modal-header">
 			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
@@ -500,9 +520,9 @@ Activities – We have been organizing the basic workshop for teaching skates on
 			</div>
 			<div class="divider-new">
 				<h2>Contact</h2>
-				<ul style="text-align:center;padding:0px;">	
+				<ul style="text-align:center;padding:0px;">
 					<li class="coach_info">
-						<div class="coach_data">			
+						<div class="coach_data">
 							<h5>Vishnu Kumar Bankoliya</h5>
 							<p><i class="fa fa-phone"></i>+91-7318020823</p>
 							<p><i class="fa fa-envelope"></i>vishnub@iitk.ac.in</p>
@@ -515,7 +535,7 @@ Activities – We have been organizing the basic workshop for teaching skates on
 		</div>
 	</div>
 
-	
+
 	<footer data-aos="fadeIn" data-aos-offset="5">
 			<ul>
 				<li>

@@ -64,13 +64,72 @@ nav{
 	border-color:black!important;
 }
 
-a.nav-link{
+.nav-link{
 	font-family:"Montserrat";
 	color:lightgray!important;
 }
-a.nav-link:hover{
+nav-link:hover{
 	color:white!important;
 }
+
+.dropdown{
+	overflow: hidden;
+	padding-left:10px;
+}
+
+.dropdown-content {
+  display: none;
+  z-index: 1;
+	background-color: white;
+	border-radius: 2px;
+	max-width: 150px;
+	font-size:18px;
+}
+
+
+.dropdown-content a {
+	margin:0px;
+  float: none;
+  padding: 12px 16px;
+	border-radius: 2px;
+  text-decoration: none;
+	padding: 10px 10px;
+	color: gray!important;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ .dropdown-content::before {
+  position: absolute;
+  top: 43px;
+  left: 30px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #CCC;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(255, 255, 255, 1);
+  content: '';
+}
+
+.dropdown-content::after {
+  position: absolute;
+  top: -6px;
+  left: 10px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid white;
+  border-left: 6px solid transparent;
+  content: '';
+}
+
 /*
 ::selection{
 	color: lightgray;
@@ -212,7 +271,7 @@ footer{
 	background-color:transparent;
 	border:transparent;
 	}
-	a.nav-link{
+	.nav-link{
 		margin-top:10px;
 	}
 	#quote{
@@ -242,7 +301,7 @@ footer{
 	background-color:transparent;
 	border:transparent;
 	}
-	a.nav-link{
+	.nav-link{
 		margin-top:10px;
 	}
 	#quote{
@@ -271,7 +330,7 @@ footer{
 	background-color:transparent;
 	border:transparent;
 	}
-	a.nav-link{
+	.nav-link{
 		margin-top:10px;
 	}
 	#quote{
@@ -293,7 +352,7 @@ footer{
 		height:25%;
 		max-height:200px;
 	}
-	
+
 }
 .news_modal_img{
 	border:solid 2px #3d3d3d;
@@ -608,7 +667,7 @@ footer div:hover{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background:#2396F3; 
+    background:#2396F3;
     opacity:1;
     width: 60px;
     height: 50px;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Give us a feedback</title>
+	<title>Award List, GnS IITK</title>
 	<link rel="shortcut icon" type="image/x-icon" href="style/images/logo.png" />
 	<meta name="keyword" content="Games,Sports,Games and Sports Council,IITK">
 	<meta name=”description” content="">
@@ -20,6 +20,23 @@
 	<script type="text/javascript" src="js/aos.js"></script>
 	<script type="text/javascript" src="js/wow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.waypoints.js"></script>
+	<style>
+	.brochure{
+		color:lightgray;
+		background-color:black;
+		display:inline-block;
+		box-shadow:3px 3px 3px rgba(0,0,0,0.5);
+		margin-left:40px;
+		margin-top:40px;
+		padding-left:20px;
+		padding-right:20px;
+		border-radius:2px;
+	}
+	.brochure img{
+		width:350px;
+		height:500px;
+	}
+	</style>
 </head>
 <body>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -104,23 +121,64 @@
 			</div>
 		</div>
 		</div>
-	</nav>	
-	<div class="firstCover container-fluid">
-		<p style='font-family:"edo";font-size:4em;color:lightgray;text-align:center;flex-direction:row;display:flex;justify-content:center;align-items:center;'>Feedback and Suggestions</p>
-		<div class="container animateColumn">
-			<div class="container" style="max-width:650px;">
-				<ul style="color:white;">
-					<form action="sendMail.php" method="post">
-					<li style="display:inline;">Name:<input required="true" type="text" name="cf_name" placeholder="Your name here" style="width:100%;color:black!important;padding:5px;"></li>
-					<br><br>
-					<li style="display:inline;">Email:<input required="true" type="email" name="cf_email" placeholder="Your email here" style="width:100%;color:black!important;padding:5px"></li>
-					<br><br>
-					<li style="display:inline;">Message:<textarea required="true" type="text" name="cf_message" rows="3" style="height:100px;width:100%;resize:none;color:black!important;padding:5px;"></textarea></li>
-					<br><br>
-					<li style="display:inline;"><button class="btn btn-success" id="submit">Submit</button></li>
-					</form>
-				</ul>
-			</div>
+	</nav>
+	<div class="firstCover container">
+		<p style='font-family:"edo";font-size:4em;color:lightgray;text-align:center;flex-direction:row;display:flex;justify-content:center;align-items:center;'>
+			Orientation Brochures
+		</p>
+		<div class="container">
+			<ul style="text-align:center;padding:0px;">
+				<li class="brochure animateColumn">
+					<div class="coach_data">
+						<img src="style/images/brouchers/1.jpg"/>
+					</div>
+				</li>
+				<li class="brochure animateColumn">
+					<div class="coach_data">
+						<img src="style/images/brouchers/2.jpg"/>
+					</div>
+				</li>
+				<li class="brochure animateColumn">
+					<div class="coach_data">
+						<img src="style/images/brouchers/3.jpg"/>
+					</div>
+				</li>
+				<li class="brochure animateColumn">
+					<div class="coach_data">
+						<img src="style/images/brouchers/4.jpg"/>
+					</div>
+				</li>
+				<li class="brochure animateColumn">
+					<div class="coach_data">
+						<img src="style/images/brouchers/5.jpg"/>
+					</div>
+				</li>
+				<li class="brochure animateColumn">
+					<div class="coach_data">
+						<img src="style/images/brouchers/6.jpg"/>
+					</div>
+				</li>
+				<li class="brochure animateColumn">
+					<div class="coach_data">
+						<img src="style/images/brouchers/7.jpg"/>
+					</div>
+				</li>
+				<li class="brochure animateColumn">
+					<div class="coach_data">
+						<img src="style/images/brouchers/8.jpg"/>
+					</div>
+				</li>
+				<li class="brochure animateColumn">
+					<div class="coach_data">
+						<img src="style/images/brouchers/9.jpg"/>
+					</div>
+				</li>
+				<li class="brochure animateColumn">
+					<div class="coach_data">
+						<img src="style/images/brouchers/10.jpg"/>
+					</div>
+				</li>
+			</ul>
 		</div>
 
 	</div>
@@ -140,7 +198,7 @@
 					<a href="https://www.youtube.com/channel/UC_DYfHIfAlTH3ECXXCGo_9g" class="fa fa-youtube"></a>
 				</li>
 			</ul>
-			<div class="container-fluid" align="center"><a style="color:darkgray;" href="feedback.php">Give us a feedback</a><br> &#169; 2018 Copyright: Web Executive, GnS Council</div>
+			<div class="container-fluid" align="center"> &#169; 2018 Copyright: Web Executive, GnS Council</div>
 	</footer>
 	<script>
 		AOS.init();

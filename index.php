@@ -6,11 +6,11 @@
 	<meta name="keyword" content="Games,Sports,Games and Sports Council,IITK">
 	<meta name=”description” content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 	<![endif]-->
-	
+
 	<!-- JQuery plugins -->
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
@@ -18,7 +18,7 @@
 	<script type="text/javascript" src="js/jquery.easing.compatibility.js"></script>
 	<script type="text/javascript" src="js/animation.js"></script>
 	<script type="text/javascript" src="js/aos.js"></script>
-	
+
 </head>
 <body id="home" style="transition:1s;opacity:0;" onload="animationOnPageLoad();">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,29 +28,29 @@
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		
+
 		<link href="style/layout.css" rel="stylesheet">
-	
+
 		<link href="style/sports.css" rel="stylesheet">
-		
+
 		<link href="style/aos.css" rel="stylesheet">
-		
+
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		
+
 		<!-- Animation css -->
 		<link href="style/animate.css" rel="stylesheet">
 
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		
-		
+
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		
-		
+
+
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
 
@@ -58,26 +58,46 @@
 		  <div class="container-fluid">
 			<div class="navbar-header">
 			  <a class="navbar-brand" href="http://students.iitk.ac.in/sports"><div class="logoContainer"><img src="style/images/logo.png" style="width:50px;height:50px;"></div></a>
-			  
+
 			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
 			</button>
-			
+
 			</div>
 			<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
 				<div id="mynavbar">
 					<ul class="nav navbar-nav navbar-right">
 					  <li><a href="index.php" class="nav-link">Home</a></li>
-					  <li><a href="sports.php" class="nav-link">Sports</a></li>
-					  <li><a href="clubs.php" class="nav-link">Clubs</a></li>
-					  <li><a href="events.php" class="nav-link">Events</a></li>
+						<li>
+							<div class="dropdown nav-link">
+								<a class="dropbtn" style="text-decoration:none;color:lightgray;">Sports
+									<i class="fa fa-caret-down"></i>
+								</a>
+								<div class="dropdown-content">
+									<a href="sports.php" class="nav-link">Sports</a>
+									<a href="clubs.php" class="nav-link">Clubs</a>
+									<a href="events.php" class="nav-link">Events</a>
+								</div>
+							</div>
+						</li>
 					  <li><a href="interiit.php" class="nav-link">Inter IIT</a></li>
-					  <li><a href="awards.php" class="nav-link">Awards</a></li>
+						<li>
+							<div class="dropdown nav-link">
+								<a class="dropbtn" style="text-decoration:none;color:lightgray;">Important
+									<i class="fa fa-caret-down"></i>
+								</a>
+								<div class="dropdown-content">
+									<a href="awards.php" class="nav-link">Awards</a>
+									<a href="ob.php" class="nav-link">Orientation Brochure</a>
+								</div>
+							</div>
+						</li>
+
 					  <li><a href="contact.php" class="nav-link">Contact Us</a></li>
-					  <li><a href="ground.php" class="nav-link">Ground Book</a></li>
+
 					</ul>
 				</div>
 			</div>
@@ -101,11 +121,11 @@
 			    <div class="col-md-12">
 			      <div class="carousel carousel-showsixmoveone slide " id="carousel123">
 				<div class=" carousel-inner">
-				
+
 										<!-- Important Important Important Important Important Important Important -->
-				
+
 				<!-- To add any recent news use the following instructions -->
-				
+
 				<!-- Remove 'active' class from the first news block -->
 				<!-- Then create a new block of following model -->
 				<!--
@@ -126,7 +146,7 @@
 					</div>
 				</div>
 					-->
-				  
+
 				<div class="item active">
 				    <div class="col-xs-12 col-sm-4 col-md-3" data-aos="flip-left" id="13">
 						<div class="news_list">
@@ -144,7 +164,7 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 						</div>
 					</div>
 				  </div>
-				
+
 				<div class="item">
 				    <div class="col-xs-12 col-sm-4 col-md-3" data-aos="flip-left" id="11">
 						<div class="news_list">
@@ -201,7 +221,7 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 								<h4>17/02/18</h4>
 								<img class="news_list_img" src="style/images/9.jpg">
 								<br>
-								<p class="textInfo">Josh '18, the annual sports festival, is to be held from 25th to 28th of January 2018. It brings you more than 20 different events 
+								<p class="textInfo">Josh '18, the annual sports festival, is to be held from 25th to 28th of January 2018. It brings you more than 20 different events
 							and 8 institute leagues. Register here: <a href="http://students.iitk.ac.in/josh">here</a></p>
 							</div>
 							<button type="button" data-toggle="modal" data-target="#modal_9">
@@ -210,8 +230,8 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 						</div>
 					</div>
 				  </div>
-				  
-				  
+
+
 				  <div class="item">
 				    <div class="col-xs-12 col-sm-4 col-md-3" data-aos="flip-left" id="8">
 						<div class="news_list">
@@ -228,8 +248,8 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 						</div>
 					</div>
 				  </div>
-				  
-				  
+
+
 				  <div class="item">
 				    <div class="col-xs-12 col-sm-4 col-md-3" data-aos="flip-left" id="7">
 						<div class="news_list">
@@ -238,7 +258,7 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 								<h4>05/10/17</h4>
 								<img class="news_list_img" src="style/images/7.jpg">
 								<br>
-								<p class="textInfo">IIT Kanpur emerged as winners in Water Polo and clinched 3rd position in Swimming in Men and Women Category in the Inter 
+								<p class="textInfo">IIT Kanpur emerged as winners in Water Polo and clinched 3rd position in Swimming in Men and Women Category in the Inter
 											IIT Aquatics Meet held at IIT Madras from 1st to 4th Oct, 2017. For more detailed results visit here</p>
 							</div>
 							<button type="button" data-toggle="modal" data-target="#modal_7">
@@ -246,9 +266,9 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 							</button>
 						</div>
 					</div>
-				  </div>       
+				  </div>
 
-				  
+
 				  <div class="item">
 				    <div class="col-xs-12 col-sm-4 col-md-3" data-aos="flip-left" id="6">
 						<div class="news_list">
@@ -265,8 +285,8 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 						</div>
 					</div>
 				  </div>
-				  
-				  
+
+
 					<div class="item">
 				    <div class="col-xs-12 col-sm-4 col-md-3" data-aos="flip-left" id="5">
 						<div class="news_list">
@@ -275,14 +295,14 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 								<h4>29/08/17</h4>
 								<img class="news_list_img" src="style/images/5.jpg">
 								<br>
-								<p class="textInfo">Games and Sports Council organized fun informal activities like Tug of War, Dog and Bone, Sack Race, Spoon Ladoo Race and 
+								<p class="textInfo">Games and Sports Council organized fun informal activities like Tug of War, Dog and Bone, Sack Race, Spoon Ladoo Race and
 								Musical Chair marking the birthday of the legendary Hockey Player, Major Dhyan Chand Singh. Find the photos here</p>
 							</div>
 							<button type="button" data-toggle="modal" data-target="#modal_5">Read More</button>
 						</div>
 					</div>
 				  </div>
-				  
+
 				  <div class="item">
 				    <div class="col-xs-12 col-sm-4 col-md-3" data-aos="flip-left" id="4">
 						<div class="news_list">
@@ -291,18 +311,18 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 								<h4>20/08/17</h4>
 								<img class="news_list_img" src="style/images/4.jpg">
 								<br>
-								<p class="textInfo">Udghosh'17 organised their first event 'Cyclothon', a 10km race inside the campus open to all the campus residents. 
-											The event was inaugurated by Nuzhat Parween, an Indian cricketer, as she flagged off the race and later handed over 
+								<p class="textInfo">Udghosh'17 organised their first event 'Cyclothon', a 10km race inside the campus open to all the campus residents.
+											The event was inaugurated by Nuzhat Parween, an Indian cricketer, as she flagged off the race and later handed over
 											the prizes to the winners. Find the photos here</p>
 							</div>
 							<button type="button" data-toggle="modal" data-target="#modal_4">Read More</button>
 						</div>
 					</div>
 				  </div>
-				  
-				  
-				 
-	
+
+
+
+
 				</div>
 				<a class="left carousel-control" href="#carousel123" data-slide="prev"><i class="glyphicon
 	 glyphicon-chevron-left"></i></a>
@@ -442,7 +462,7 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 						<img class="news_modal_img" src="style/images/9.jpg">
 						<br><br>
 						<p>
-							Josh '18, the annual sports festival, is to be held from 25th to 28th of January 2018. It brings you more than 20 different events 
+							Josh '18, the annual sports festival, is to be held from 25th to 28th of January 2018. It brings you more than 20 different events
 							and 8 institute leagues. Register <a href="http://students.iitk.ac.in/josh">here</a>
 						</p>
 					</div>
@@ -474,7 +494,7 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 				<div class="modal-content">
 			      		<div class="modal-header">
 						<h2 style="display:inline-block;">Inter IIT Aquatics Results</h2>
-						<span>						
+						<span>
 							<button type="button" class="remove" data-dismiss="modal">
 								<i class="glyphicon glyphicon-remove"></i>
 							</button>
@@ -484,7 +504,7 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 						<h4>5/10/17</h4>
 						<img class="news_modal_img" src="style/images/7.jpg">
 						<br><br>
-						<p>IIT Kanpur emerged as winners in Water Polo and clinched 3rd position in Swimming in Men and Women Category in the Inter 
+						<p>IIT Kanpur emerged as winners in Water Polo and clinched 3rd position in Swimming in Men and Women Category in the Inter
 											IIT Aquatics Meet held at IIT Madras from 1st to 4th Oct, 2017. For more detailed results visit <a href="http://www.interiit.com/scheduleandresults">here</a></p>
 					</div>
 				</div>
@@ -495,7 +515,7 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 				<div class="modal-content">
 			      		<div class="modal-header">
 						<h2 style="display:inline-block">Teachers' Day Celebration</h2>
-						<span>						
+						<span>
 							<button type="button" class="remove" data-dismiss="modal">
 								<i class="glyphicon glyphicon-remove"></i>
 							</button>
@@ -526,7 +546,7 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 						<h4>29/08/17</h4>
 						<img class="news_modal_img" src="style/images/5.jpg">
 						<br><br>
-						<p>Games and Sports Council organized fun informal activities like Tug of War, Dog and Bone, Sack Race, Spoon Ladoo Race and 
+						<p>Games and Sports Council organized fun informal activities like Tug of War, Dog and Bone, Sack Race, Spoon Ladoo Race and
 								Musical Chair marking the birthday of the legendary Hockey Player, Major Dhyan Chand Singh. Find the photos <a href="https://www.facebook.com/pg/sports.iitk/photos/?tab=album&album_id=1435982146479655">here</a>
 						</p>
 					</div>
@@ -549,8 +569,8 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 						<img class="news_modal_img" src="style/images/4.jpg">
 						<br><br>
 						<p>
-								Udghosh'17 organised their first event 'Cyclothon', a 10km race inside the campus open to all the campus residents. 
-											The event was inaugurated by Nuzhat Parween, an Indian cricketer, as she flagged off the race and later handed over 
+								Udghosh'17 organised their first event 'Cyclothon', a 10km race inside the campus open to all the campus residents.
+											The event was inaugurated by Nuzhat Parween, an Indian cricketer, as she flagged off the race and later handed over
 											the prizes to the winners. Find the photos <a href="https://www.facebook.com/pg/udghosh.iitk/photos/?tab=album&album_id=1261370053972874">here</a>
 						</p>
 					</div>
@@ -561,7 +581,7 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 			<div class="modal-dialog">
 				<div class="modal-content">
 			      		<div class="modal-header">
-						<h2 style="display:inline-block">Taekwondo state Championship at IIT Kanpur</h2>	
+						<h2 style="display:inline-block">Taekwondo state Championship at IIT Kanpur</h2>
 						<span>
 							<button type="button" class="remove" data-dismiss="modal">
 								<i class="glyphicon glyphicon-remove"></i>
@@ -573,7 +593,7 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 						<img class="news_modal_img" src="style/images/3.jpg">
 						<br><br>
 						<p>
-								Taekwondo state Championship was held recently within the premises of IIT Kanpur. Taekwondo club IIT Kanpur 
+								Taekwondo state Championship was held recently within the premises of IIT Kanpur. Taekwondo club IIT Kanpur
 											grabbed a number of medals in different weight category and stood Overall 2nd in the event POOMSAE.
 						</p>
 					</div>
@@ -597,7 +617,7 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 						<br><br>
 						<p>
 								Shooting Club, IIT Kanpur has participated in 7th UP pre state championship bringing laurels to our institute by winning.
-											Squadron Leader Sandeep Sharma (M. Tech 2nd year, EE dept) IAF won Gold Medal in individual event and Rintu Bhaskar 
+											Squadron Leader Sandeep Sharma (M. Tech 2nd year, EE dept) IAF won Gold Medal in individual event and Rintu Bhaskar
 											(PhD, Nuclear Engg) won Bronze Medal in team event in Pre UP State Shooting Championship at Moradabad.
 											Vinay Kumar (PhD, CSE dept) also participated and all three qualified to play UP State level Shooting.
 						</p>
@@ -621,7 +641,7 @@ As Felicitation Ceremony of Games and Sports Council completed, one more year of
 		</footer>
 		<a href="javascript:" id="return-to-top" data-toggle="tooltip" data-placement="left" title="Scroll to the top"><i class="glyphicon glyphicon-chevron-up"></i></a>
 		<script>
-		
+
 		(function(){
   // setup your carousels as you normally would using JS
   // or via data attributes according to the documentation
@@ -669,7 +689,7 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 });
 
 $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip(); 
+    $('[data-toggle="tooltip"]').tooltip();
 });
 
 			</script>

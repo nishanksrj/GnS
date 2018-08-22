@@ -6,11 +6,11 @@
 	<meta name="keyword" content="Games,Sports,Games and Sports Council,IITK">
 	<meta name=”description” content="">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 	<![endif]-->
-	
+
 	<!-- JQuery plugins -->
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
@@ -27,61 +27,82 @@
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		
+
 		<link href="style/layout.css" rel="stylesheet">
-		
+
 		<link href="style/sports.css" rel="stylesheet">
-		
+
 		<link href="style/aos.css" rel="stylesheet">
-		
+
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		
+
 		<!-- Animation css -->
 		<link href="style/animate.css" rel="stylesheet">
 
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		
-		
+
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		
-		
+
+
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
 
 	<!-- navigation bar -->
-	<nav class="navbar navbar-default transparent ">
-		  <div class="container-fluid">
-			<div class="navbar-header">
-			  <a class="navbar-brand" href="#"><div class="logoContainer"><img src="style/images/logo.png" style="width:50px;height:50px;"></div></a>
-			  
-			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-			</button>
-			
+	<nav class="navbar navbar-inverse transparent ">
+		<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="http://students.iitk.ac.in/sports"><div class="logoContainer"><img src="style/images/logo.png" style="width:50px;height:50px;"></div></a>
+
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+		</button>
+
+		</div>
+		<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+			<div id="mynavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.php" class="nav-link">Home</a></li>
+					<li>
+						<div class="dropdown nav-link">
+							<a class="dropbtn" style="text-decoration:none;color:lightgray;">Sports
+								<i class="fa fa-caret-down"></i>
+							</a>
+							<div class="dropdown-content">
+								<a href="sports.php" class="nav-link">Sports</a>
+								<a href="clubs.php" class="nav-link">Clubs</a>
+								<a href="events.php" class="nav-link">Events</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="interiit.php" class="nav-link">Inter IIT</a></li>
+					<li>
+						<div class="dropdown nav-link">
+							<a class="dropbtn" style="text-decoration:none;color:lightgray;">Important
+								<i class="fa fa-caret-down"></i>
+							</a>
+							<div class="dropdown-content">
+								<a href="awards.php" class="nav-link">Awards</a>
+								<a href="ob.php" class="nav-link">Orientation Brochure</a>
+							</div>
+						</div>
+					</li>
+
+					<li><a href="contact.php" class="nav-link">Contact Us</a></li>
+
+				</ul>
 			</div>
-			<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
-				<div id="mynavbar">
-					<ul class="nav navbar-nav navbar-right">
-					  <li><a href="index.php" class="nav-link">Home</a></li>
-					  <li><a href="sports.php" class="nav-link">Sports</a></li>
-					  <li><a href="clubs.php" class="nav-link">Clubs</a></li>
-					  <li><a href="events.php" class="nav-link">Events</a></li>
-					  <li><a href="interiit.php" class="nav-link">Inter IIT</a></li>
-					  <li><a href="awards.php" class="nav-link">Awards</a></li>
-					  <li><a href="contact.php" class="nav-link">Contact Us</a></li>
-					</ul>
-				</div>
-			</div>
-		  </div>
-		</nav>	
+		</div>
+		</div>
+	</nav>
 	<div class="firstCover container-fluid">
 		<p style='font-family:"edo";font-size:4em;color:lightgray;text-align:center;flex-direction:row;display:flex;justify-content:center;align-items:center;'>Events</p>
 		<div class="container-fluid">
@@ -140,16 +161,16 @@
 					<button type="button" data-toggle="modal" data-target="#football">Read More</button>
 				</div>
 			</div>
-			
+
 		</div>
 		</div>
-	</div>	
-	
-	
-	
+	</div>
+
+
+
 	<!-- udghosh -->
 	<div class="modal animated slideInUp" id="udghosh">
-		<div class="modal-dialog">	
+		<div class="modal-dialog">
 			<div class="modal-content">
 			<div class="modal-header">
 			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
@@ -159,12 +180,12 @@
 				<p>Udghosh is the annual sports festival of IIT Kanpur, held each year in October. Over the years Udghosh has evolved and expanded to become the biggest inter-collegiate sports extravaganza in India. Being one of the most eagerly awaited events of the year, it is a national platform where the youth of the nation get together, interact and indulge in a fair play. Udghosh witnesses participation from students from over 200 colleges from all over India. Students from all fields – humanities, engineering, science, commerce, law and medicine participate in the event with great gusto. A footfall of over 30,000 is witnessed during the festival.
 <br><br>
 Udghosh has come up as a classic example of the fact that it’s the endeavour that counts. Our efforts have always aimed to bring about rise in competition level among the youth, empowering the masses with the torch of social awareness, keeping the grandeur of entertainment and professional shows alive. Udghosh brings to the masses a plethora of events, comprising of all major sports, workshops and informal events.</p>
-				<a href="https://www.udghosh.org/" target="_blank" data-toggle="tooltip" data-placement="right" title="Visit Udghosh website">Udghosh</a>			
+				<a href="https://www.udghosh.org/" target="_blank" data-toggle="tooltip" data-placement="right" title="Visit Udghosh website">Udghosh</a>
 			</div>
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- inferno -->
 	<div class="modal animated slideInUp" id="inferno">
 		<div class="modal-dialog">
@@ -182,10 +203,10 @@ Freshers’ Inferno, the Inter Hall Sports Competition exclusively for freshers,
 		</div>
 		</div>
 	</div>
-	
+
 	<!-- josh-->
 	<div class="modal animated slideInUp" id="josh">
-		<div class="modal-dialog">	
+		<div class="modal-dialog">
 			<div class="modal-content">
 			<div class="modal-header">
 			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
@@ -200,12 +221,12 @@ Josh '18 is slated to be held from 25th to 28th of January 2018. It brings you m
 			<a href="http://students.iitk.ac.in/josh/" target="_blank" data-placement="right" data-toggle="tooltip" title="Visit Josh'18 here.">Josh</a>
 			</div>
 			</div>
-		</div>		
+		</div>
 	</div>
 
 	<!-- enthusia-->
 	<div class="modal animated slideInUp" id="enthusia">
-		<div class="modal-dialog">	
+		<div class="modal-dialog">
 			<div class="modal-content">
 			<div class="modal-header">
 			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
@@ -218,27 +239,27 @@ Josh '18 is slated to be held from 25th to 28th of January 2018. It brings you m
 			</div>
 		</div>
 	</div>
-	
+
 	<!--interiit -->
 	<div class="modal animated slideInUp" id="interiit">
-		<div class="modal-dialog">	
+		<div class="modal-dialog">
 			<div class="modal-content">
 			<div class="modal-header">
 			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
-			<h2>Inter-IIT</h2> 
+			<h2>Inter-IIT</h2>
 			</div>
 			<div class="modal-body divider-new2">
 				<p>Inter-IIT Sports Meet is the most eagerly looked after sports event amongst campus teams, wherein all IITs compete for glory. It comprises of two meets, Inter IIT Main Meet in December and Inter IIT Aquatics Meet. Aquatics Meet is held separately (generally in the first week of October) as part of Inter IIT each year preceding the main meet. Inter IIT is hosted by IITs turn by turn. General Championship is awarded to the teams based on their combined performance in Inter IIT Main Meet and Inter IIT Aquatics meet. IIT Kanpur hosted the Inter IIT 2016 edition. The grandness of the event can be judged by the fact that the teams practice throughout the year to give their best shot in a 10 day tournament.<br><br>&nbsp;&nbsp;Format: Each sport carries 10 points for the winners, 6 for the runners up, 4 for the 3rd place and 2 for the 4th place. Total points for a particular IIT are summed up and the total is known as their GC tally. The IIT with maximum GC tally wins the Inter IIT Sports meet, and gets to lift the prestigious GC trophy. The dream of every member of the contingent is to perform to their best of abilities at the prestigious Inter IIT tournament and contribute to bringing the GC home. IIT Kanpur has been winning the overall General Championship for the past three years. We are looking up to <b>#MissionMadras</b>.
 </p>
 			<a href="http://www.interiit.com" target="_blank" data-placement="right" data-toggle="tooltip" title="Visit Inter-IIT website">Inter-IIT</a>
-			</div>	
+			</div>
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- summer camp -->
 	<div class="modal animated slideInUp" id="summercamp">
-		<div class="modal-dialog">	
+		<div class="modal-dialog">
 			<div class="modal-content">
 			<div class="modal-header">
 			<span><button type="button" class="remove" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button></span>
@@ -253,7 +274,7 @@ This is the time when players experience a noticeable transformation in the game
 			</div>
 		</div>
 	</div>
-	
+
 	<footer data-aos="fadeIn" data-aos-offset="5" data-aos-duration=".3">
 			<ul>
 				<li>
@@ -271,7 +292,7 @@ This is the time when players experience a noticeable transformation in the game
 	<script>
 		AOS.init();
 		$(document).ready(function(){
-		    $('[data-toggle="tooltip"]').tooltip();   
+		    $('[data-toggle="tooltip"]').tooltip();
 		});
 	</script>
 </body>
